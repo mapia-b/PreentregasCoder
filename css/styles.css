@@ -10,7 +10,7 @@ html{
 h1{
     font-family: 'Gayathri', sans-serif;
     text-align: center;
-       
+           
 }
 
 h2, h3{
@@ -20,6 +20,30 @@ h2, h3{
 
 a {
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #ffc0cb;
+    opacity: .5;
+    font-size: small;
+    gap: 10px;
+    width: 100%;
+}
+
+#titulo {
+    color: #256425;
+}
+
+.coder {
+    display: flex;
+    justify-content: end;
+    color: #256425;
+    font-size: smaller;
+    text-decoration: none;
+   
 }
 
 .iconify {
@@ -70,5 +94,147 @@ nav li{
     padding-left: 40px;
     padding-right: 40px ;
     margin-bottom: 40px;
+    font-size: x-large;
 }
+
+
+strong {
+    color: #256425;
+}
+
+@media (min-width: 768px) {
+    strong {
+        font-size: large;
+    }
+    
+
+    p {
+        font-size: large;
+    }
+}
+
+.img-index img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+.cursiva {
+    font-style: italic;
+    margin-top: 100px;
+}
+
+.parrafos {
+    margin: 10px;
+}
+
+.nombres {
+    color: #ffc0cb;
+}
+
+.padre-card{
+    display: flex;
+    flex-direction: column;
+}
+   
+.cardd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 30px;
+    width: auto;
+    padding: 2px;
+    
+      
+}
+
+.card-img {
+   
+   height: 20rem;
+   display: block;
+   margin: 0 auto;
+}
+
+
+@media (min-width:768px) {
+    .padre-card {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cardd {
+        width: 350px;
+
+    }
+
+    .card-img{
+        width: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .cardd {
+      width: 350px;
+    }
+}
+
+.quienes-somos {
+    background-color: #ffc0cb;
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-item img{
+    height: 400px;
+    width:100%
+}
+
+@media (min-width: 768px) {
+    #carouselExampleCaptions {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .carousel-item img {
+        height: 600px;
+        width:100%
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselExampleCaptions {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .carousel-item img {
+        height: 800px;
+        width:100%
+    }
+}
+
+.iconify {
+    margin-bottom: 0;
+    font-size: 50px ;
+   
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.insta {
+    color: rgb(73, 54, 44);
+}
+
+
+.pin {
+    color: rgb(228, 39, 70);
+}
+
 
