@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+       
+}
+
+h2, h3{
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.iconify {
+    width: 20px;
+}
+
+@media (min-width:768px) {
+    .iconify {
+        width: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .iconify {
+        width: 40px;
+    }
+}
+
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+opacity: .9;
+position: sticky;
+/*NO ME FUNCIONA EL STICKY*/
+}
+
+.logo{
+    width: 200px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        width: 400px;
+    }
+}
+
+nav li{
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px ;
+    margin-bottom: 40px;
+}
+
