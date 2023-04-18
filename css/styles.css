@@ -74,18 +74,18 @@ position: sticky;
 }
 
 .logo{
-    width: 200px;
+    width: 100px;
 }
 
 @media (min-width: 768px) {
     .logo {
-        width: 250px;
+        width: 200px;
     }
 }
 
 @media (min-width: 992px) {
     .logo {
-        width: 400px;
+        width: 300px;
     }
 }
 
@@ -94,7 +94,7 @@ nav li{
     padding-left: 40px;
     padding-right: 40px ;
     margin-bottom: 40px;
-    font-size: x-large;
+    font-size: large;
 }
 
 
@@ -237,4 +237,16 @@ strong {
     color: rgb(228, 39, 70);
 }
 
+ ol{
+    font-size: larger;
+    padding-bottom: 50px;
+ }
 
+.precio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+    border: solid 2px #256425;
+    padding: 0 100px 100px 100px ;
+}
