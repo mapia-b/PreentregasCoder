@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,83 +17,123 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <a href="#abajo"> <span class="iconify" data-icon="material-symbols:arrow-circle-down-outline-rounded"
-        style="color: #256425;" data-width="34" data-height="34"></span> </a>
+            style="color: #256425;" data-width="34" data-height="34"></span> </a>
 
-<header id="arriba">
+    <header id="arriba">
 
-    <a href="../index.html">
-        <img src="../img/logo.png" alt="Logo" title="Logo Grupo Potus verde y blanco" class="logo">
-    </a>
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo" title="Logo Grupo Potus verde y blanco" class="logo">
+        </a>
 
 
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="iconify" data-icon="charm:menu-hamburger" style="color: #256425;"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../pages/Quienes somos.html">Quienes somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../pages/Encuentros.html">Encuentros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../pages/Modalidad.html">Modalidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../pages/Contacta con nosotras.html">Contacta con nosotras</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="iconify" data-icon="charm:menu-hamburger" style="color: #256425;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Quienes somos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Encuentros.html">Encuentros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Modalidad.html">Modalidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Contacta con nosotras.html">Contacta con nosotras</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+        <section>
+            <h1 class="container text-wrap " id="titulo">Salir al encuentro!</h1>
+            <img src="../img/caminando.png" alt="dibujo" title="Dibujo personas camiando" class="dibujo">
+        </section>
+
+        <section>
+            <h3 class="cursiva">Donde se realizan los talleres?</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.692159858261!2d-56.1656092!3d-34.9083808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81984979a1c7%3A0xff734f795343e5d3!2sEspacio%20Rod%C3%B3!5e0!3m2!1ses!2suy!4v1681948534345!5m2!1ses!2suy"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <main>
+            <form>
+
+                <h3 class="nombres mt-5">Formulario de consultas</h3>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre y apellido </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Comentario/consulta</label>
+                    <input type="password" class="form-control size" id="exampleInputPassword1">
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Averiguo para mi</label>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Averiguo para familiar/amigo</label>
+                </div>
+
+                <div id="emailHelp" class="form-text">No compartiremos tus datos con nadie </div>
+                <button type="submit" class="btn btn-primary my-5 ">Enviar</button>
+            </form>
+        </main>
+
+        <footer id="abajo">
+
+            <h5>Grupo Potus&copy;</h5>
+            <p> Sitio web creado en segunda pre-entrega curso Coderhouse Comision 39365 </p>
+            <p> Maria Pia Barreiro </p>
+            <p> Abril 2023 </p>
+
+            <div class="redes">
+                <a href="https://www.instagram.com/grupopotus/" target="_blank">
+                    <span class="iconify insta" data-icon="mdi:instagram"></span>
+                </a>
+
+                <a href="https://www.gmail.com" target="_blank">
+                    <span class="iconify" data-icon="logos:google-gmail" style="color: pink;"></span>
+                </a>
+
+                <a href="https://www.pinterest.com" target="_blank">
+                    <span class="iconify pin" data-icon="mdi:pinterest"></span>
+                </a>
+
+            </div>
+
+            <a href="https://www.coderhouse.com.uy/" target="_blank" class="coder">Ir a Coderhouse</a>
+
+            <a href="#arriba"> <span class="iconify" data-icon="material-symbols:arrow-circle-up-outline-rounded"
+                    style="color: #256425;" data-width="34" data-height="34"></span> </a>
 
 
-    <footer id="abajo" >
+        </footer>
 
-        <h5>Grupo Potus&copy;</h5>
-        <p> Sitio web creado en segunda pre-entrega curso Coderhouse Comision 39365 </p>
-        <p> Maria Pia Barreiro </p>
-        <p> Abril 2023 </p>
-
-        <div class="redes">
-            <a href="https://www.instagram.com/grupopotus/" target="_blank">
-                <span class="iconify insta" data-icon="mdi:instagram"></span>
-            </a>
-
-            <a href="https://www.gmail.com" target="_blank">
-                <span class="iconify" data-icon="logos:google-gmail" style="color: pink;"></span>
-            </a>
-
-            <a href="https://www.pinterest.com" target="_blank">
-                <span class="iconify pin" data-icon="mdi:pinterest"></span>
-            </a>
-
-        </div>
-
-        <a href="https://www.coderhouse.com.uy/" target="_blank" class="coder">Ir a Coderhouse</a>
-
-        <a href="#arriba"> <span class="iconify" data-icon="material-symbols:arrow-circle-up-outline-rounded"
-                style="color: #256425;" data-width="34" data-height="34"></span> </a>
-                
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </body>
+
 </html>

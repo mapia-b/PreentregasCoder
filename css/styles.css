@@ -62,14 +62,16 @@ footer {
     }
 }
 
+
+
+
 header{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 30px;
-opacity: .9;
-position: sticky;
+
 /*NO ME FUNCIONA EL STICKY*/
 }
 
@@ -249,4 +251,31 @@ strong {
     margin-left: 50px;
     border: solid 2px #256425;
     padding: 0 100px 100px 100px ;
+}
+
+.dibujo {
+width: 10rem
+}
+
+.size {
+    height: 100px;
+}
+
+iframe {
+    width: auto;
+    height: auto;
+}
+
+@media (min-width:680px) {
+    iframe {
+        width: 400px;
+    height: 200px;
+    }
+}
+
+@media (min-width:900px) {
+    iframe {
+        width: 600px;
+    height: 400px;
+    }
 }
