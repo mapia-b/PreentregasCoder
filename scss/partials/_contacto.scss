@@ -1,0 +1,26 @@
+.dibujo {
+    width: 10rem
+    }
+    
+    .size {
+        height: 100px;
+    }
+    
+    iframe {
+        width: auto;
+        height: auto;
+    }
+    
+    @media (min-width:680px) {
+        iframe {
+            width: 400px;
+        height: 200px;
+        }
+    }
+    
+    @media (min-width:900px) {
+        iframe {
+            width: 600px;
+        height: 400px;
+        }
+    }

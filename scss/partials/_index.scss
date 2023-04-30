@@ -1,0 +1,12 @@
+.img-index img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.esquema:hover {
+    transform: scale(1.2) ;
+}

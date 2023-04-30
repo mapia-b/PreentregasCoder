@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+           
+}
+
+h2, h3{
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.top{
+background-color: #daf7da;
+opacity: .9;
+width: 100%;
+}
+
+.logo{
+    width: 100px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        width: 200px;
+    }
+}
+
+
+nav li{
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin: 0, auto;
+  
+  }
+  .nav-item{
+    font-size: large;
+  }
+
+  .nav-item a:hover{
+    color: #256425;
+    font-size: larger;
+}
+
+
+.cursiva {
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.parrafos {
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+   width: 50% ;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #ffc0cb;
+    opacity: .8;
+    font-size: small;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+#titulo {
+    color: #256425;
+}
+
+.coder {
+    display: flex;
+    justify-content: end;
+    color: rgb(34, 32, 32);
+    font-size: smaller;
+    text-decoration: none;
+    margin: 0 auto;
+   
+}
+
+.margen {
+    margin-left: 50px;
+}
+
+.iconify {
+    margin-bottom: 0;
+    font-size: 50px ;
+   
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.insta {
+    color: rgb(73, 54, 44);
+}
+
+
+.pin {
+    color: rgb(228, 39, 70);
+}
+

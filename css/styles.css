@@ -1,285 +1,269 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{ 
-    font-family: 'Nunito', sans-serif;
+html {
+  font-family: "Nunito", sans-serif;
 }
 
-h1{
-    font-family: 'Gayathri', sans-serif;
-    text-align: center;
-           
+h1 {
+  font-family: "Gayathri", sans-serif;
+  text-align: center;
 }
 
-h2, h3{
-    font-family: 'Gayathri', sans-serif;
+h2, h3 {
+  font-family: "Gayathri", sans-serif;
 }
-
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    background-color: #ffc0cb;
-    opacity: .5;
-    font-size: small;
-    gap: 10px;
-    width: 100%;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
 }
 
-#titulo {
-    color: #256425;
+.top {
+  background-color: #daf7da;
+  opacity: 0.9;
+  width: 100%;
 }
 
-.coder {
-    display: flex;
-    justify-content: end;
-    color: #256425;
-    font-size: smaller;
-    text-decoration: none;
-   
-}
-
-.iconify {
-    width: 20px;
-}
-
-@media (min-width:768px) {
-    .iconify {
-        width: 30px;
-    }
-}
-
-@media (min-width: 992px) {
-    .iconify {
-        width: 40px;
-    }
-}
-
-
-
-
-header{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 30px;
-
-/*NO ME FUNCIONA EL STICKY*/
-}
-
-.logo{
-    width: 100px;
+.logo {
+  width: 100px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-    .logo {
-        width: 200px;
-    }
+  .logo {
+    width: 150px;
+  }
 }
-
 @media (min-width: 992px) {
-    .logo {
-        width: 300px;
-    }
+  .logo {
+    width: 200px;
+  }
+}
+nav li {
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  margin: 0, auto;
 }
 
-nav li{
-    display: inline;
-    padding-left: 40px;
-    padding-right: 40px ;
-    margin-bottom: 40px;
-    font-size: large;
+.nav-item {
+  font-size: large;
 }
 
-
-strong {
-    color: #256425;
-}
-
-@media (min-width: 768px) {
-    strong {
-        font-size: large;
-    }
-    
-
-    p {
-        font-size: large;
-    }
-}
-
-.img-index img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 300px;
-    margin: auto;
+.nav-item a:hover {
+  color: #256425;
+  font-size: larger;
 }
 
 .cursiva {
-    font-style: italic;
-    margin-top: 100px;
+  font-style: italic;
+  margin-top: 100px;
+  margin-left: 30px;
 }
 
 .parrafos {
-    margin: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  text-align: center;
+  width: 50%;
 }
 
-.nombres {
-    color: #ffc0cb;
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  background-color: #ffc0cb;
+  opacity: 0.8;
+  font-size: small;
+  gap: 10px;
+  width: 100%;
 }
 
-.padre-card{
-    display: flex;
-    flex-direction: column;
-}
-   
-.cardd {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin: 40px 30px;
-    width: auto;
-    padding: 2px;
-    
-      
+#titulo {
+  color: #256425;
 }
 
-.card-img {
-   
-   height: 20rem;
-   display: block;
-   margin: 0 auto;
+.coder {
+  display: flex;
+  justify-content: end;
+  color: rgb(34, 32, 32);
+  font-size: smaller;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
-
-@media (min-width:768px) {
-    .padre-card {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .cardd {
-        width: 350px;
-
-    }
-
-    .card-img{
-        width: 40px;
-    }
-}
-
-@media (min-width:992px) {
-    .cardd {
-      width: 350px;
-    }
-}
-
-.quienes-somos {
-    background-color: #ffc0cb;
-}
-
-#carouselExampleCaptions {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.carousel-item img{
-    height: 400px;
-    width:100%
-}
-
-@media (min-width: 768px) {
-    #carouselExampleCaptions {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .carousel-item img {
-        height: 600px;
-        width:100%
-    }
-}
-
-@media (min-width: 992px) {
-    #carouselExampleCaptions {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .carousel-item img {
-        height: 800px;
-        width:100%
-    }
-}
-
-.textcarousel{
-    color: #256425;
+.margen {
+  margin-left: 50px;
 }
 
 .iconify {
-    margin-bottom: 0;
-    font-size: 50px ;
-   
+  margin-bottom: 0;
+  font-size: 50px;
 }
 
 .redes {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .insta {
-    color: rgb(73, 54, 44);
+  color: rgb(73, 54, 44);
 }
-
 
 .pin {
-    color: rgb(228, 39, 70);
+  color: rgb(228, 39, 70);
 }
 
- ol{
-    font-size: larger;
-    padding-bottom: 50px;
- }
+.img-index img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.esquema:hover {
+  transform: scale(1.2);
+}
+
+.nombres {
+  color: #ffc0cb;
+}
+
+.padre-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 30px;
+  width: auto;
+  padding: 2px;
+}
+
+.card-img {
+  height: 20rem;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .padre-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cardd {
+    width: 350px;
+  }
+  .card-img {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .cardd {
+    width: 350px;
+  }
+}
+.quienes-somos {
+  background-color: #ffc0cb;
+}
+
+#carouselExampleCaptions {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slide {
+  margin-top: 20px;
+}
+
+.slide img {
+  height: 20rem;
+  width: 50rem;
+}
+
+@media (min-width: 768px) {
+  #carouselExampleCaptions {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slide img {
+    height: 30rem;
+    width: 100rem;
+  }
+}
+@media (min-width: 992px) {
+  #carouselExampleCaptions {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slide img {
+    height: 40rem;
+    width: 200rem;
+  }
+}
+.textcarousel {
+  color: #256425;
+  background-color: antiquewhite;
+  opacity: 0.5;
+}
+
+ol {
+  font-size: larger;
+  padding-bottom: 50px;
+}
 
 .precio {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 50px;
-    border: solid 2px #256425;
-    padding: 0 100px 100px 100px ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 50px;
+  border: solid 2px #256425;
+  padding: 0 100px 100px 100px;
 }
 
 .dibujo {
-width: 10rem
+  width: 10rem;
 }
 
 .size {
-    height: 100px;
+  height: 100px;
 }
 
 iframe {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
-@media (min-width:680px) {
-    iframe {
-        width: 400px;
+@media (min-width: 680px) {
+  iframe {
+    width: 400px;
     height: 200px;
-    }
+  }
+}
+@media (min-width: 900px) {
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
 }
 
-@media (min-width:900px) {
-    iframe {
-        width: 600px;
-    height: 400px;
-    }
-}
+/*# sourceMappingURL=styles.css.map */

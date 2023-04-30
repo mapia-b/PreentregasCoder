@@ -1,0 +1,47 @@
+#carouselExampleCaptions {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.slide {
+    margin-top: 20px;
+}
+
+.slide img {
+    height: 20rem;
+    width: 50rem;
+}
+
+@media (min-width: 768px) {
+    #carouselExampleCaptions {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .slide img {
+        height: 30rem;
+        width: 100rem;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    #carouselExampleCaptions {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .slide img {
+        height: 40rem;
+        width: 200rem;
+    }
+    
+}
+
+.textcarousel{
+    color: #256425;
+    background-color: antiquewhite;
+    opacity: .5;
+   
+}
+
