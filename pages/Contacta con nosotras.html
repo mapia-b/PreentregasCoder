@@ -22,7 +22,7 @@
 
 <body>
     <section class="top">
-        <a href="#abajo" > <span class="iconify" data-icon="material-symbols:arrow-circle-down-outline-rounded"
+        <a href="#abajo" > <span class="iconify iconify-flecha" data-icon="material-symbols:arrow-circle-down-outline-rounded"
                 style="color: #256425;" data-width="34" data-height="34"></span> </a>
         </section>
         
@@ -76,18 +76,25 @@
         </section>
 
         <main>
-            <form>
+
+            <form class="form">
 
                 <h3 class="nombres mt-5">Formulario de consultas</h3>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre y apellido * </label>
+                    <label for="exampleInputEmail1" class="form-label">Nombre y apellido <strong class="asterix"> * </strong></label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa nombre y apellido" required>
 
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Comentario/consulta</label>
-                    <input type="text" class="form-control size" id="exampleInputPassword1"  placeholder="Dejanos tu comentario" required>
+                    <input type="text" class="form-control size" id="exampleInputPassword1"  placeholder="Dejanos tu comentario">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"> Celular de contacto <strong class="asterix"> * </strong></label>
+                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="099 000 000 " required>
+
                 </div>
 
                 <div class="mb-3 form-check">
@@ -101,7 +108,7 @@
                 </div>
 
                 <div id="emailHelp" class="form-text"> <em> No compartiremos tus datos con nadie </em> </div>
-                <button type="submit" class="btn btn-primary my-5 ">Enviar</button>
+                <button type="submit" class=" btn-primary my-5 ">Enviar</button>
             </form>
         </main>
 

@@ -1,6 +1,16 @@
 .dibujo {
-    width: 10rem
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 10rem;
+    margin-top: 40px;
+
+      }
+
+.dibujo:hover {
+    transform: scale(1.5)
+}
     
     .size {
         height: 100px;
@@ -9,18 +19,41 @@
     iframe {
         width: auto;
         height: auto;
+        max-width: 100%;
     }
     
     @media (min-width:680px) {
         iframe {
             width: 400px;
-        height: 200px;
+            height: 200px;
         }
     }
     
     @media (min-width:900px) {
         iframe {
             width: 600px;
-        height: 400px;
+            height: 400px;
+        }
+    }
+
+
+
+    .asterix {
+        color: red;
+    }
+
+    .btn-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        background-color: $color-dos;
+        border: solid 1px $color-tres; 
+        border-radius: 3px;
+        padding: 3px;
+
+        &:hover {
+            background-color: #ee7b8e;
+            transform: scale(1.1)
         }
     }

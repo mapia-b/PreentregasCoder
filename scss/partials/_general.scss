@@ -10,6 +10,7 @@ html{
 h1{
     font-family: 'Gayathri', sans-serif;
     text-align: center;
+    color: $color-uno;
            
 }
 
@@ -22,6 +23,9 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: $color-tres;
+}
 
 header{
     display: flex;
@@ -33,7 +37,7 @@ header{
 }
 
 .top{
-background-color: #daf7da;
+background-color: $color-dos;
 opacity: .9;
 width: 100%;
 }
@@ -41,6 +45,7 @@ width: 100%;
 .logo{
     width: 100px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
@@ -70,7 +75,7 @@ nav li{
   }
 
   .nav-item a:hover{
-    color: #256425;
+    color: $color-uno;
     font-size: larger;
 }
 
@@ -86,6 +91,7 @@ nav li{
     margin-left: 20px;
     text-align: center;
    width: 50% ;
+   
 }
 
 
@@ -93,7 +99,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 200px;
-    background-color: #ffc0cb;
+    background-color: $color-dos;
     opacity: .8;
     font-size: small;
     gap: 10px;
@@ -102,13 +108,13 @@ footer {
 }
 
 #titulo {
-    color: #256425;
+    color: $color-uno;
 }
 
 .coder {
     display: flex;
     justify-content: end;
-    color: rgb(34, 32, 32);
+    color: $color-tres;
     font-size: smaller;
     text-decoration: none;
     margin: 0 auto;
@@ -120,9 +126,16 @@ footer {
 }
 
 .iconify {
-    margin-bottom: 0;
-    font-size: 50px ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-size: 5rem;
    
+}
+
+.iconify-flecha {
+    margin-top: 0;
+    font-size: 2rem;
 }
 
 .redes {
@@ -132,11 +145,11 @@ footer {
 }
 
 .insta {
-    color: rgb(73, 54, 44);
+    color: #49362c;
 }
 
 
 .pin {
-    color: rgb(228, 39, 70);
+    color: #e42746;
 }
 
