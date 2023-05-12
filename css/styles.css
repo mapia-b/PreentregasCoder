@@ -121,7 +121,6 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  font-size: 5rem;
 }
 
 .iconify-flecha {
@@ -134,6 +133,9 @@ footer {
   justify-content: center;
   gap: 50px;
 }
+.redes .insta, .redes .pin {
+  font-size: 2rem;
+}
 
 .insta {
   color: #49362c;
@@ -143,6 +145,20 @@ footer {
   color: #e42746;
 }
 
+.gmail {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .insta {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .insta {
+    font-size: 4rem;
+  }
+}
 .img-index img {
   display: flex;
   flex-direction: row;

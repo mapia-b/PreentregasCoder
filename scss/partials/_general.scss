@@ -60,7 +60,6 @@ width: 100%;
     }
 }
 
-
 nav li{
     display: inline;
     padding-left: 40px;
@@ -129,8 +128,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    font-size: 5rem;
-   
+      
 }
 
 .iconify-flecha {
@@ -142,14 +140,36 @@ footer {
     display: flex;
     justify-content: center;
     gap: 50px;
+    .insta, .pin {
+        font-size: 2rem;
+    }
 }
 
 .insta {
     color: #49362c;
 }
 
-
 .pin {
     color: #e42746;
+   }
+
+.gmail{
+    font-size: 3rem;
+   }
+
+@media (min-width:768px) {
+   .insta {
+        font-size: 3rem;
+    }
 }
+
+@media (min-width:992px){
+    .insta {
+        font-size: 4rem;
+    }
+}
+
+
+
+
 
