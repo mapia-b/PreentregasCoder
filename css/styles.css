@@ -1,5 +1,6 @@
 /*Paleta de colores*/
 /*Tamano iconos*/
+/*Tamano pantalla*/
 * {
   margin: 0;
   padding: 0;
@@ -131,32 +132,22 @@ footer {
 .redes {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
 }
-.redes .insta, .redes .pin {
+.redes .red {
   font-size: 2rem;
-}
-
-.insta {
-  color: #49362c;
-}
-
-.pin {
-  color: #e42746;
-}
-
-.gmail {
-  font-size: 3rem;
+  color: #256425;
+  transition: 0.3s;
 }
 
 @media (min-width: 768px) {
-  .insta {
-    font-size: 3rem;
+  .red {
+    font-size: 4rem;
   }
 }
 @media (min-width: 992px) {
-  .insta {
-    font-size: 4rem;
+  .red {
+    font-size: 6rem;
   }
 }
 .img-index img {
@@ -165,6 +156,7 @@ footer {
   justify-content: center;
   width: 300px;
   margin: 0 auto;
+  transition: 0.3s;
 }
 
 .esquema:hover {
@@ -192,8 +184,14 @@ footer {
 
 .card-img {
   height: 20rem;
+  width: 5rem;
   display: block;
   margin: 0 auto;
+  border: 3px;
+}
+
+.padre-card:hover {
+  transform: 5, 5;
 }
 
 @media (min-width: 768px) {
@@ -293,13 +291,13 @@ iframe {
   max-width: 100%;
 }
 
-@media (min-width: 680px) {
+@media (min-width: 768px) {
   iframe {
     width: 400px;
     height: 200px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   iframe {
     width: 600px;
     height: 400px;

@@ -48,13 +48,13 @@ width: 100%;
     padding: 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width:$tablet) {
     .logo {
         width: 150px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width:$desktop) {
     .logo {
         width: 200px;
     }
@@ -136,40 +136,31 @@ footer {
     font-size: 2rem;
 }
 
+
+
 .redes {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    .insta, .pin {
-        font-size: 2rem;
+    gap: 70px;
+    
+ 
+        .red {
+            font-size: 2rem;
+            color: $color-uno;
+            transition: 0.3s;
+              
+        }
     }
-}
+    
 
-.insta {
-    color: #49362c;
-}
-
-.pin {
-    color: #e42746;
-   }
-
-.gmail{
-    font-size: 3rem;
-   }
-
-@media (min-width:768px) {
-   .insta {
-        font-size: 3rem;
-    }
-}
-
-@media (min-width:992px){
-    .insta {
+@media (min-width:$tablet) {
+    .red {
         font-size: 4rem;
     }
 }
 
-
-
-
-
+@media (min-width:$desktop) {
+    .red {
+        font-size: 6rem;
+    }
+}
