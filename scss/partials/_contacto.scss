@@ -5,6 +5,7 @@
     margin: 0 auto;
     width: 10rem;
     margin-top: 40px;
+    transition: 0.3s;
 
       }
 
@@ -51,6 +52,7 @@
         border: solid 1px $color-tres; 
         border-radius: 3px;
         padding: 3px;
+       
 
         &:hover {
             background-color: #ee7b8e;

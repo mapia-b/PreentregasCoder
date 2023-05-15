@@ -1,0 +1,19 @@
+
+body {
+    background-color: $color-tres;
+}
+
+.ups{
+    margin-top: 50px;
+} 
+
+
+.logo-error img {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 1px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
