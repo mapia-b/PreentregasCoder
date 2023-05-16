@@ -164,54 +164,97 @@ footer {
   transform: scale(1.2);
 }
 
-.nombres {
-  color: #ffc0cb;
-  margin-top: 30px;
-}
-
 .padre-card {
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.cardd {
+.card {
+  width: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
-  width: 50px;
-  margin: 0, auto;
-  padding: 2px;
+  transition: 0.3s;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-.card-img {
-  height: 20rem;
-  width: 5rem;
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 20px 3px #222020;
+}
+.card img {
   display: block;
-  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.card .profesion {
+  text-align: center;
+  font-size: larger;
+  color: #256425;
+}
+.card .text-card {
+  color: #222020;
+  margin-left: 3px;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .padre-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
   }
-  .cardd {
-    width: 350px;
-    margin: 100px;
+  .card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
   }
-  .card-img {
-    width: 40px;
+  .text-card {
+    font-size: large;
   }
 }
-@media (min-width: 992px) {
-  .cardd {
-    width: 350px;
+@media (min-width: 1000px) {
+  .padre-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    overflow: hidden;
+  }
+  .card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+  }
+  .text-card {
+    font-size: larger;
   }
 }
 .quienes-somos {
   background-color: #ffc0cb;
+  padding: 10px;
+}
+
+.nombres {
+  color: #222020;
+  background-color: #ffc0cb;
+  display: block;
+  text-align: center;
+  margin: 0;
   padding: 10px;
 }
 
@@ -274,6 +317,7 @@ ol {
   float: left;
   width: 33.3%;
   padding: 8px;
+  margin-bottom: 20px;
 }
 
 .mensualidad {

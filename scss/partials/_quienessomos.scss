@@ -1,59 +1,105 @@
-.nombres {
-    color: #ffc0cb;
-    margin-top: 30px;
-}
 
 .padre-card{
     display: flex;
     flex-direction: column;
-    margin: 30px;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-   
-.cardd {
+
+.card {
+    width: 250px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
-  width: 50px;
-  margin: 0, auto;
-    padding: 2px;
-   
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 20px 3px $color-tres;
+    }   
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+            
+        }
+
+        .profesion{
+            text-align: center;
+            font-size: larger;
+            color: $color-uno;
+        }
+
+        .text-card{
+            color: $color-tres;
+            margin-left: 3px;
+            text-align: center;
+        }
 }
 
-.card-img {
-   
-   height: 20rem;
-   width: 5rem;
-   display: block;
-   margin: 0 auto;
-   
-}
 
-@media (min-width:$tablet) {
-    .padre-card {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
+@media (min-width:700px) {
+    .padre-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        overflow: hidden;
     }
-    .cardd {
-        width: 350px;
-        margin: 100px;
-
+    .card {
+        width: 300px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
     }
 
-    .card-img{
-        width: 40px;
-    }
-}
-
-@media (min-width:$desktop) {
-    .cardd {
-      width: 350px;
+    .text-card{ 
+        font-size: large;
     }
 }
+
+@media (min-width:1000px) {
+    .padre-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+        overflow: hidden;
+    }
+    .card {
+        width: 400px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    }
+
+    .text-card{ 
+        font-size: larger;
+    }
+}
+
 
 .quienes-somos {
     background-color: #ffc0cb;
    padding: 10px;
 }
 
+.nombres {
+    color: $color-tres;
+    background-color: $color-dos;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    
+}
