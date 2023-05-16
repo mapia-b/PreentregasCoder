@@ -21,6 +21,9 @@
         width: auto;
         height: auto;
         max-width: 100%;
+        margin-left: 100px;
+        
+       
     }
     
     @media (min-width:$tablet) {
@@ -37,7 +40,15 @@
         }
     }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 60px;
 
+}
 
     .asterix {
         color: red;
@@ -52,8 +63,8 @@
         border: solid 1px $color-tres; 
         border-radius: 3px;
         padding: 3px;
+        cursor: wait;
        
-
         &:hover {
             background-color: #ee7b8e;
             transform: scale(1.1)

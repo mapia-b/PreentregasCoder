@@ -7,13 +7,21 @@ body {
     margin-top: 50px;
 } 
 
+.body {
+    background-color:$color-tres;
+    color: $color-dos;
+}
 
-.logo-error img {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 1px;
-    margin: 0 auto;
-    padding: 10px;
+.logo-error {
+  display: block;
+  text-align: center;
+}
 
+.codigo-error {
+    margin-top: 50px;
+    transition: 0.4s;
+
+    &:hover {
+        transform: scale(1.3);
+    }
 }

@@ -1,0 +1,38 @@
+.h2{
+    background-color: $color-dos;
+}
+
+.cronogramas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.abril, .mayo {
+    width: 12rem;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+        transform: scale(1.4);
+    }
+}
+
+@media (min-width:$tablet){
+    .abril, .mayo {
+        width: 30rem;
+        margin: 0 auto;
+}
+    }
+
+@media (min-width:$desktop){
+    .abril, .mayo {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        width: 30rem;
+        margin: 0 auto;
+}
+    }
+
