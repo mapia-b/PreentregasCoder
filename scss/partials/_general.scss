@@ -72,11 +72,10 @@ nav li{
     margin: 0, auto;
   
   }
-  .nav-item{
-    font-size: large;
-  }
+  
 
   .nav-item a:hover{
+    transform: scale(1.01);
     color: $color-uno;
     font-size: larger;
 }

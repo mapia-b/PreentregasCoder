@@ -68,11 +68,8 @@ nav li {
   margin: 0, auto;
 }
 
-.nav-item {
-  font-size: large;
-}
-
 .nav-item a:hover {
+  transform: scale(1.01);
   color: #256425;
   font-size: larger;
 }
@@ -164,98 +161,17 @@ footer {
   transform: scale(1.2);
 }
 
-.padre-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.accordion {
+  margin-top: 30px;
 }
 
-.card {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.card:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 1px 20px 3px #222020;
-}
-.card img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.card .profesion {
-  text-align: center;
-  font-size: larger;
-  color: #256425;
-}
-.card .text-card {
-  color: #222020;
-  margin-left: 3px;
-  text-align: center;
+.color {
+  background-color: #ffc0cb !important;
+  color: #256425 !important;
 }
 
-@media (min-width: 700px) {
-  .padre-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    overflow: hidden;
-  }
-  .card {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0, auto;
-  }
-  .text-card {
-    font-size: large;
-  }
-}
-@media (min-width: 1000px) {
-  .padre-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-    overflow: hidden;
-  }
-  .card {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0, auto;
-  }
-  .text-card {
-    font-size: larger;
-  }
-}
-.quienes-somos {
-  background-color: #ffc0cb;
-  padding: 10px;
-}
-
-.nombres {
-  color: #222020;
-  background-color: #ffc0cb;
-  display: block;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
+.color-alternado {
+  color: #256425 !important;
 }
 
 #carouselExampleCaptions {
@@ -302,10 +218,45 @@ footer {
   margin-left: 30px;
 }
 
-.forma {
+.titulo-servicios {
+  margin-top: 50px;
   display: block;
-  width: 4rem;
-  height: 4rem;
+  text-align: center;
+  background-color: #ffc0cb;
+}
+
+.servicios-padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .servicios-padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .servicios-padre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+  }
+}
+.div-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-servicio {
+  width: 50px;
+  height: 50px;
 }
 
 ol {
@@ -405,33 +356,42 @@ iframe {
     height: 400px;
   }
 }
+.numeros-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.padre-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  width: 500px;
-  margin-left: 700px;
-  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }
 
 .asterix {
-  color: red;
+  color: rgb(248, 103, 103);
 }
 
 .btn-primary {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  background-color: #ffc0cb;
-  border: solid 1px #222020;
+  padding: 5px;
+  color: #ffc0cb;
+  background-color: #222020;
   border-radius: 3px;
-  padding: 3px;
-  cursor: wait;
+  transition: 0.4s;
 }
 .btn-primary:hover {
-  background-color: #ee7b8e;
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 body {
@@ -469,6 +429,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  margin-top: 20px;
 }
 
 .abril, .mayo {
@@ -488,9 +449,11 @@ body {
   }
 }
 @media (min-width: 992px) {
-  .abril, .mayo {
+  .cronogramas {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .abril, .mayo {
     width: 30rem;
     margin: 0 auto;
   }

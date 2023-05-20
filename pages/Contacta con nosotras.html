@@ -46,9 +46,6 @@
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Quienes somos.html">Quienes somos</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="Encuentros.html">Encuentros</a>
                         </li>
                         <li class="nav-item">
@@ -56,6 +53,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="actividades.html">Actividades mensuales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Preguntas frecuentes.html">Preguntas frecuentes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Contacta con nosotras.html">Contacta con nosotras</a>
@@ -72,24 +72,21 @@
             <img src="../img/caminando.png" alt="dibujo" title="Dibujo personas camiando" class="dibujo">
         </section>
 
-        <section>
-            <h3 class="cursiva">Donde se realizan los talleres?</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.692159858261!2d-56.1656092!3d-34.9083808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81984979a1c7%3A0xff734f795343e5d3!2sEspacio%20Rod%C3%B3!5e0!3m2!1ses!2suy!4v1681948534345!5m2!1ses!2suy"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" ></div>></iframe>
+        <section class="numeros-contacto">
+            <h4>Numeros de contacto</h4>
+            <p>098 838 524 // 098 269 471</p>
         </section>
+        
 
-        <main>
-
+        <main class="padre-form">
             <form class="form">
 
-                <h3 class="nombres mt-5">Formulario de consultas</h3>
+                <h3 class="nombres mt-5 mb-4">Formulario de consultas</h3>
 
                <!--div 1--> 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nombre y apellido <strong class="asterix"> * </strong></label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa nombre y apellido" required>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido" required>
                 </div>
 
                 <!--div 2--> 
@@ -101,7 +98,7 @@
                 <!--div 3--> 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label"> Celular de contacto <strong class="asterix"> * </strong></label>
-                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="099 000 000 " required>
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="099 000 000 " required>
                 </div>
  
                  <!--div 4--> 
@@ -120,6 +117,7 @@
                 <div id="emailHelp" class="form-text"> <em> No compartiremos tus datos con nadie </em> </div>
                 <button type="submit" class=" btn-primary my-5 ">Enviar</button>
             </form>
+
         </main>
 
         <footer id="abajo">

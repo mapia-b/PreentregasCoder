@@ -40,33 +40,41 @@
         }
     }
 
+.numeros-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.padre-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .form {
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    width: 500px;
-    margin-left: 700px;
-    margin-top: 60px;
-
+    justify-content: center;
+    align-items: center;
+    width: 400px;
 }
 
-    .asterix {
-        color: red;
+.asterix {
+    color: rgb(248, 103, 103);
+}
+
+.btn-primary {
+    padding: 5px;
+    color: $color-dos;
+    background-color: $color-tres;
+    border-radius: 3px;
+    transition: 0.4s;
+    &:hover {
+        transform: scale(1.3);
     }
 
-    .btn-primary {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        background-color: $color-dos;
-        border: solid 1px $color-tres; 
-        border-radius: 3px;
-        padding: 3px;
-        cursor: wait;
-       
-        &:hover {
-            background-color: #ee7b8e;
-            transform: scale(1.1)
-        }
-    }
+}
