@@ -157,6 +157,17 @@ footer {
   transition: 0.3s;
 }
 
+.img-indexx img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
 .esquema:hover {
   transform: scale(1.2);
 }
@@ -171,7 +182,8 @@ footer {
 }
 
 .color-alternado {
-  color: #256425 !important;
+  background-color: #256425 !important;
+  color: #ffc0cb !important;
 }
 
 #carouselExampleCaptions {
