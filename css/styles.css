@@ -61,9 +61,8 @@ header {
 }
 nav li {
   display: inline;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
+  padding: 20px 40px 0px;
+  /*20 es top 40 es right y left 0 es bottom*/
   margin-bottom: 40px;
   margin: 0, auto;
 }
